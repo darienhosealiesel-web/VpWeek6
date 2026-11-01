@@ -206,7 +206,7 @@ fun ProjectsScreen(
                                         fontWeight = FontWeight.Bold
                                     )
                                     Text(
-                                        project.deskripsi,
+                                        project.description,
                                         fontSize = 13.sp,
                                         lineHeight = 17.sp,
                                         color = Color.Gray,
@@ -295,7 +295,7 @@ fun ProjectsScreen(
                 form = form,
                 techOptions = techOptions,
                 onTitleChange = onTitleChange,
-                onDeskripsiChange = onDeskripsiChange,
+                onDescriptionChange = onDeskripsiChange,
                 onTechToggle = onTechToggle,
                 onSave = onSave,
                 onCancel = onCancel
@@ -304,15 +304,3 @@ fun ProjectsScreen(
     }
 }
 
-//@Preview(showBackground = true, showSystemUi = true)
-//@Composable
-//fun ProjectsScreenPreview() {
-//    AssignmentWeek6Theme {
-//        ProjectsScreen(
-//            communityId = "gdsc",
-//            viewModel = viewModel(),
-//            onBack = {},
-//            onProjectClick = {}
-//        )
-//    }
-//}

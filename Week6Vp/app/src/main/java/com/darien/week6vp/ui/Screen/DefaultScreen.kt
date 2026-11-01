@@ -84,7 +84,7 @@ fun HomeScreen(
                     )
                 } else {
                     Text(
-                        student.inisial,
+                        student.initial,
                         fontSize = 12.sp,
                         fontWeight = FontWeight.Bold,
                         color = Color.White
@@ -126,7 +126,7 @@ fun HomeScreen(
                         )
                     } else {
                         Text(
-                            student.inisial,
+                            student.initial,
                             fontSize = 26.sp,
                             fontWeight = FontWeight.Bold,
                             color = Color(0xFF2B4BB8)
@@ -403,12 +403,3 @@ fun HomeScreen(
         }
     }
 }
-
-//@Preview(showBackground = true, showSystemUi = true)
-//@Composable
-//fun HomeScreenPreview() {
-//    AssignmentWeek6Theme{
-//        HomeScreen(viewModel = viewModel())
-//    }
-//
-//}

@@ -7,7 +7,7 @@ data class Project(
     val id: String,
     val communityId: String,
     val title: String,
-    val deskripsi: String,
+    val description: String,
     val tech: List<String>,
     val icon: ImageVector,
     val color: Color,

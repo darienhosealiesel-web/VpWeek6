@@ -158,7 +158,7 @@ fun ProjectDetailsScreen(
                 ) {
                     Text("Deskripsi Lengkap Proyek", fontSize = 16.sp, fontWeight = FontWeight.Bold)
                     Text(
-                        text = project.deskripsi,
+                        text = project.description,
                         fontSize = 14.sp,
                         lineHeight = 22.sp,
                         color = Color(0xFF475569)
@@ -235,11 +235,3 @@ fun ProjectDetailsScreen(
         }
     }
 }
-
-//@Preview(showBackground = true, showSystemUi = true)
-//@Composable
-//fun ProjectDetailsScreenPreview() {
-//    AssignmentWeek6Theme{
-//        ProjectDetailsScreen(projectId = "projekdiinputuser", viewModel = viewModel(), onBack = {})
-//    }
-//}

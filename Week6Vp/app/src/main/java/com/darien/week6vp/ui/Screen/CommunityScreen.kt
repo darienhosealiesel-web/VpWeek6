@@ -202,7 +202,7 @@ fun CommunityScreen(
                                     )
                                     Spacer(Modifier.width(6.dp))
                                     Text(
-                                        "Terkunci (Gate Akses)",
+                                        "Locked (Gate Akses)",
                                         fontSize = 12.sp,
                                         color = Color.Gray,
                                         modifier = Modifier.weight(1f)
@@ -275,10 +275,3 @@ fun CommunityScreen(
     }
 }
 
-//@Preview(showBackground = true, showSystemUi = true)
-//@Composable
-//fun CommunitiesScreenPreview() {
-//    AssignmentWeek6Theme {
-//        CommunitiesScreen(viewModel = viewModel(), onOpenProjects = {})
-//    }
-//}

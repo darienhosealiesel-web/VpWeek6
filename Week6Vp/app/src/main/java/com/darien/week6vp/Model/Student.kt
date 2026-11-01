@@ -6,7 +6,7 @@ data class Student (
     val angkatan: Int,
     val nim: String,
 ){
-    val inisial: String
+    val initial: String
         get() = nama.split(" ")
             .take(2).joinToString(""){it.first().uppercase()}
 }

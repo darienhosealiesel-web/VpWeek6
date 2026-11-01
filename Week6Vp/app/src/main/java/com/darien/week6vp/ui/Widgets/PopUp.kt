@@ -29,7 +29,7 @@ fun PopUp(
     form: ProjectFormState,
     techOptions: List<String>,
     onTitleChange: (String) -> Unit,
-    onDeskripsiChange: (String) -> Unit,
+    onDescriptionChange: (String) -> Unit,
     onTechToggle: (String) -> Unit,
     onSave: () -> Unit,
     onCancel: () -> Unit
@@ -90,7 +90,7 @@ fun PopUp(
                     )
                     OutlinedTextField(
                         value = form.deskripsi,
-                        onValueChange = onDeskripsiChange,
+                        onValueChange = onDescriptionChange,
                         placeholder = {Text("Jelaskan proyekmu...", fontSize = 14.sp, color = Color.Gray)},
                         minLines = 3,
                         maxLines = 3,
